@@ -20,4 +20,4 @@ jobs:
 
     - name: Deploy to Server
       run: |
-        ssh -o StrictHostKeyChecking=no hughejef@flip3.engr.oregonstate.edu "cd /nfs/stak/users/hughejef/CS340 && git pull origin main"
+        ssh -o StrictHostKeyChecking=no hughejef@flip2.engr.oregonstate.edu "cd /nfs/stak/users/hughejef/cs340 && git pull origin main"
